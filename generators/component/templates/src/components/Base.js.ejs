@@ -1,0 +1,17 @@
+import React from 'react';
+<% if (redux) { -%>
+import { Provider } from 'react-redux';
+import store from '../store';
+<% } -%>
+
+const <%= className %> = function <%= className %>() {
+  return (
+    <% if (redux) { %><Provider store={store}><% } %>
+    <div>
+      Example component
+    </div>
+    <% if (redux) { %></Provider><% } %>
+  );
+};
+
+export default <%= className %>;
