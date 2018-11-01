@@ -67,6 +67,11 @@ files.build = function root(answers) {
       properties: {},
     },
     {
+      origin: '.eslintignore.ejs',
+      destination: '.eslintignore',
+      properties: {},
+    },
+    {
       origin: 'index.js.ejs',
       destination: 'index.js',
       properties: {},
