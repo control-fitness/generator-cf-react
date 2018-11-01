@@ -1,6 +1,6 @@
 {
   "name": "generator-cf-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Control Fitness ReactJS Generator",
   "main": "index.js",
   "repository": "https://github.com/control-fitness/generator-cf-react.git",
