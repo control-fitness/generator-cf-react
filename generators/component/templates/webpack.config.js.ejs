@@ -29,6 +29,9 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: 'docs/'
+    contentBase: 'docs/',
+    historyApiFallback: {
+      index: 'index.html',
+    }
   }
 }
