@@ -36,6 +36,13 @@ module.exports = class extends Generator {
     const answers = await this.prompt([
       {
         type: 'input',
+        name: 'org',
+        message: 'Organization name',
+        default: '@control-fitness',
+        validate: helper.required,
+      },
+      {
+        type: 'input',
         name: 'name',
         message: 'Package name',
         default: this.options.name,
@@ -109,7 +116,7 @@ module.exports = class extends Generator {
    */
   _buildPackageJson(answers) {
     const packageJson = {
-      name: answers.name,
+      name: `${answers.org}/${answers.name}`,
       version: answers.version,
       description: answers.description,
       main: answers.main,
