@@ -104,6 +104,13 @@ files.build = function root(answers) {
       },
     },
     {
+      origin: 'src/components/Base.test.js.ejs',
+      destination: `src/components/${answers.className}.test.js`,
+      properties: {
+        className: answers.className,
+      },
+    },
+    {
       origin: 'src/index.js.ejs',
       destination: 'src/index.js',
       properties: {
