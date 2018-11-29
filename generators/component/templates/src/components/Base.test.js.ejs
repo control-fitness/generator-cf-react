@@ -1,0 +1,14 @@
+/* globals describe test document */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import <%= className %> from './<%= className %>';
+
+describe('Components', () => {
+  describe('<%= className %>', () => {
+    test('Render without crashing', () => {
+      const div = document.createElement('div');
+      ReactDOM.render(<<%= className %> />, div);
+      ReactDOM.unmountComponentAtNode(div);
+    });
+  });
+});

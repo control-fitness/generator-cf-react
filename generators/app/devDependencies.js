@@ -1,6 +1,7 @@
 module.exports = {
   'babel-cli': '^6.26.0',
   'babel-core': '^6.26.3',
+  'babel-jest': '^23.6.0',
   'babel-loader': '^7.1.4',
   'babel-preset-env': '^1.7.0',
   'babel-preset-react': '^6.24.1',
@@ -10,6 +11,7 @@ module.exports = {
   'eslint-plugin-jsx-a11y': '^6.1.2',
   'eslint-plugin-react': '^7.11.1',
   'html-webpack-plugin': '^3.2.0',
+  jest: '^23.6.0',
   'raw-loader': '^0.5.1',
   webpack: '^4.13.0',
   'webpack-cli': '^3.0.8',
