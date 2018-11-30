@@ -10,6 +10,6 @@ module.exports = {
   is_js: '^0.9.0',
   'semantic-ui-react': '^0.82.5',
   '@control-fitness/helper-graphql-client': '^0.0.2',
-  '@control-fitness/helper-i18n': '^0.0.16',
-  '@control-fitness/helper-cdn': '^0.0.3',
+  '@control-fitness/helper-i18n': '^0.0.17',
+  '@control-fitness/helper-cdn': '^0.0.5',
 };
